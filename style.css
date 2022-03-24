@@ -1,0 +1,56 @@
+*{
+ margin:0;
+ padding: 0;
+ box-sizing: border-box;    
+}
+
+body{
+    width:100vw;
+    height: 100vh;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    background:#0a0c21;
+}
+
+.cronometro, .botoes{
+   
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+span{
+    position: absolute;
+    font-size: 100px;
+    margin-top: 3em;
+    color: #fff;
+}
+img{
+    margin-top:3em ;
+    width:90%;
+
+}
+
+#btnPause{
+    margin: 20px 20px;
+    padding: 10px;
+    color:rgb(5, 5, 5);
+}
+
+#btnStart{
+    margin: 20px 20px;
+    padding: 10px;
+    color:rgb(5, 5, 5);
+}
+
+#btnClean{
+    margin: 20px 20px;
+    padding: 10px;
+    color:rgb(5, 5, 5);
+}
+
+button{
+    background-color: #fffdfd;
+    border-radius: 5px;
+    display: inline;
+}
